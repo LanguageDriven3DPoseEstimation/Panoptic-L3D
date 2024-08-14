@@ -25,7 +25,7 @@ Here is an example process:
 git clone https://github.com/CMU-Perceptual-Computing-Lab/panoptic-toolbox
 cd panoptic-toolbox
 ```
-Then, please open the file of "./scripts/getData.sh", we need change some code:
+Then, please open the file of "./scripts/getData.sh" and change some code:
 ```
 # First, change line 74
 # from
