@@ -4,10 +4,15 @@
 <img src="assets/g_2.gif" width="95%">
 
 ## 📢 Updates
-- **Aug. 14, 2024**: We release our data loading and processing document
+- **Dec. 14, 2024**: We release our data loading and processing document
+- **May. 28, 2025**: Supplementary material (model details, more results, and analysis) is available [here](./supplementary.pdf)
 
 ## 📑 Panoptic-L3D Dataset
 <img src="assets/dataset_example.png" width="95%">
+
+## 📎 Supplementary Material
+Detailed model descriptions, additional results, and ablations are provided in the [supplementary.pdf](./supplementary.pdf).
+
 
 ## 📖 Abstract
 In an NBA game scenario, consider the challenge of locating and analyzing the 3D poses of players performing a user-specified action, such as attempting a shot. Traditional 3D human pose estimation (3DHPE) methods often fall short in such complex, multi-person scenes due to their lack of semantic integration and reliance on isolated pose data. To address these limitations, we introduce Language-Driven 3D Human Pose Estimation (L3DHPE), a novel approach that extends 3DHPE to general multi-person contexts by incorporating detailed language descriptions. We present Panoptic-L3D, the first dataset designed for L3DHPE, featuring 3,838 linguistic annotations for 1,476 individuals across 588 videos, with 6,035 masks and 91k frame-level 3D skeleton annotations. Additionally, we propose Cascaded Pose Perception (CPP), a benchmarking method that simultaneously performs language-driven mask segmentation and 3D pose estimation within a unified model. CPP first learns 2D pose information, utilizes a body fusion module to aid in mask segmentation, and employs a mask fusion module to mitigate mask noise before outputting 3D poses. Our extensive evaluation of CPP and existing benchmarks on the Panoptic-L3D dataset demonstrates the necessity of this novel task and dataset for advancing 3DHPE.
