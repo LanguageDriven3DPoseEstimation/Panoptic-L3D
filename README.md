@@ -1,4 +1,4 @@
-# Language-driven 3D Human Pose Estimation: Grounding Motion from Text Descriptions
+# Language-Driven 3D Human Pose Estimation in Multi-Person Scenarios: A New Dataset and Approach
 
 <img src="assets/g_1.gif" width="95%">
 <img src="assets/g_2.gif" width="95%">
